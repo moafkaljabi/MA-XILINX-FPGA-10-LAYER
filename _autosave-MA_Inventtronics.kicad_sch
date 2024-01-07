@@ -1,0 +1,191 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 89a65f01-fa2e-4110-a777-7753f49323b1)
+
+  (paper "A3")
+
+  (title_block
+    (title "Xilinx-FPGA-10-Layer")
+    (date "2023-12-19")
+    (rev "1")
+    (comment 2 "MOAFK ALJABI")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 266.8016 25.908) (size 120.4214 43.307)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 194 1.0000))
+    (uuid 06863e9a-b3c0-4e0d-b223-2957d481cbc5)
+    (property "Sheetname" "3. Zynq Config, JTAG, Debug" (at 278.765 51.4858 0)
+      (effects (font (size 5 5) bold (color 0 0 255 1)) (justify left bottom))
+    )
+    (property "Sheetfile" "[3] Zynq Config, JTAG, Debug.kicad_sch" (at 266.8016 74.7526 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MA_Inventtronics"
+        (path "/89a65f01-fa2e-4110-a777-7753f49323b1" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 147.1676 81.3308) (size 113.792 75.9968)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 153 0 1.0000))
+    (uuid 0f3005c8-81ea-4f6e-b3ec-f894db10fa38)
+    (property "Sheetname" "5. Zynq Programmable Logic (PL)" (at 149.86 107.6452 0)
+      (effects (font (size 5 5) bold (color 0 0 255 1)) (justify left bottom))
+    )
+    (property "Sheetfile" "[5] Zynq Programmable Logic (PL).kicad_sch" (at 147.1676 130.1754 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MA_Inventtronics"
+        (path "/89a65f01-fa2e-4110-a777-7753f49323b1" (page "10"))
+      )
+    )
+  )
+
+  (sheet (at 14.3764 160.02) (size 113.8428 43.8912)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 194 1.0000))
+    (uuid 24706737-b474-4072-9150-9d9b4e6bc762)
+    (property "Sheetname" "7. 1GB DDR3L Modules" (at 18.1864 182.118 0)
+      (effects (font (size 5 5) bold (color 0 0 255 1)) (justify left bottom))
+    )
+    (property "Sheetfile" "[7] 1GB DDR3L Modules.kicad_sch" (at 15.0876 204.8764 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MA_Inventtronics"
+        (path "/89a65f01-fa2e-4110-a777-7753f49323b1" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 142.1384 22.352) (size 107.6198 48.26)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 229 191 1.0000))
+    (uuid 256473d3-90e2-4485-951b-8e6fc5b01b90)
+    (property "Sheetname" "2. Zynq Power and Decoupling" (at 150.0886 50.7238 0)
+      (effects (font (size 5 5) bold (color 0 0 255 1)) (justify left bottom))
+    )
+    (property "Sheetfile" "[2] Zynq Power and Decoupling.kicad_sch" (at 142.1384 71.1966 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MA_Inventtronics"
+        (path "/89a65f01-fa2e-4110-a777-7753f49323b1" (page "11"))
+      )
+    )
+  )
+
+  (sheet (at 272.034 160.1978) (size 116.332 48.26)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 194 1.0000))
+    (uuid 55f0a729-2718-4480-8beb-b55ed359f68d)
+    (property "Sheetname" "9. USB 2.0 High-Speed (OTG)" (at 283.5148 185.7248 0)
+      (effects (font (size 5 5) bold (color 0 0 255 1)) (justify left bottom))
+    )
+    (property "Sheetfile" "[9] USB 2.0 High-Speed (OTG).kicad_sch" (at 272.034 209.0424 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MA_Inventtronics"
+        (path "/89a65f01-fa2e-4110-a777-7753f49323b1" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 17.6784 81.3054) (size 108.839 72.9488)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 153 0 1.0000))
+    (uuid a0a13d80-3603-4b2b-ac48-1bfbdfec7f71)
+    (property "Sheetname" "4. Zynq Processing System (PS)" (at 21.4884 106.3244 0)
+      (effects (font (size 5 5) bold (color 0 0 255 1)) (justify left bottom))
+    )
+    (property "Sheetfile" "[4] Zynq Processing System (PS).kicad_sch" (at 17.6784 130.15 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MA_Inventtronics"
+        (path "/89a65f01-fa2e-4110-a777-7753f49323b1" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 22.606 23.9268) (size 109.9058 44.958)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 1))
+    (fill (color 255 255 194 1.0000))
+    (uuid be8228b9-8e4e-453f-9f68-fa433a9d98d5)
+    (property "Sheetname" "1. Power" (at 52.197 50.8508 0)
+      (effects (font (size 6 6) bold (color 0 0 255 1)) (justify left bottom))
+    )
+    (property "Sheetfile" "[1] Power.kicad_sch" (at 22.9362 69.8246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MA_Inventtronics"
+        (path "/89a65f01-fa2e-4110-a777-7753f49323b1" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 142.4432 219.7862) (size 116.078 57.15)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 229 191 1.0000))
+    (uuid c116b121-2907-4328-baad-21d54e22a88b)
+    (property "Sheetname" "10.  Mezzanine Connectors" (at 165.9382 249.6312 0)
+      (effects (font (size 5 5) bold (color 0 0 255 1)) (justify left bottom))
+    )
+    (property "Sheetfile" "[10] Mezzanine Connectors.kicad_sch" (at 143.7386 277.5458 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MA_Inventtronics"
+        (path "/89a65f01-fa2e-4110-a777-7753f49323b1" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 271.9324 80.9498) (size 119.888 75.2348)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 194 1.0000))
+    (uuid edce0b52-fdfb-45fa-8262-10f86d12221e)
+    (property "Sheetname" "6. Zynq DDR Interface & Termination" (at 273.9644 110.4138 0)
+      (effects (font (face "Times New Roman") (size 5 5) bold (color 0 0 255 1)) (justify left bottom))
+    )
+    (property "Sheetfile" "[6] Zynq DDR Interface & Termination.kicad_sch" (at 271.9324 129.7944 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MA_Inventtronics"
+        (path "/89a65f01-fa2e-4110-a777-7753f49323b1" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 144.3228 160.5788) (size 116.586 45.5676)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 229 191 1.0000))
+    (uuid eed562fc-8805-43f8-b1b0-e7367dbd3b90)
+    (property "Sheetname" "8. Gigabit Ethernet" (at 172.2628 186.436 0)
+      (effects (font (size 5 5) bold (color 0 0 255 1)) (justify left bottom))
+    )
+    (property "Sheetfile" "[8] Gigabit Ethernet.kicad_sch" (at 144.3228 209.4234 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MA_Inventtronics"
+        (path "/89a65f01-fa2e-4110-a777-7753f49323b1" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
